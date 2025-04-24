@@ -1,0 +1,56 @@
+# ========================
+# Logs and Debugging
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ========================
+# Node.js
+# ========================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ========================
+# Python
+# ========================
+env/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.Python
+
+# ========================
+# Editors / IDEs
+# ========================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# ========================
+# Build / Output / Misc
+# ========================
+*.bak
+*.tmp
+*.swp
+
+# ========================
+# Media / Audio Files (optional - if generated)
+# ========================
+*.wav
+*.mp3
